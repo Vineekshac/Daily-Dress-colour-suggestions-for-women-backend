@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+   function CreateForm() {
+      var f = document.createElement("FORM");
+      document.body.appendChild(f);
+      var i = document.createElement("INPUT");
+      i.setAttribute("type", "password");
+      f.appendChild(i);
+   }
+</script>
+</head>
+<body>
+<h1>Form object </h1>
+<p>Create a FORM element containing an input element by clicking the below button</p>
+<button onclick="CreateForm()">CREATE</button>
+<br><br>
+</body>
+</html>

@@ -1,0 +1,1 @@
+create a navbar.js in comp,inside the navbar.js file in the  return block write the html code for navbar,use classname to style it and import it to app.js and show  on the webpage

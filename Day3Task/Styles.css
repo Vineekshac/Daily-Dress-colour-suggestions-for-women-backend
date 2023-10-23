@@ -1,0 +1,17 @@
+/* h1{
+    text-align: center;
+    color: blue;
+}
+p{
+    text-align:center;
+    color: brown;
+} */
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+}

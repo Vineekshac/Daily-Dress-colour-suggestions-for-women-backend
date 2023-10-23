@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Project</title>
+
+    <!-- include bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+
+    <!-- include css -->
+    <link rel="stylesheet" href="task_13.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="">
+        <img src="images/Elansezhian.jpg" alt="" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo02"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" onclick="myHide()" href="#">About Me</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="001" class="containerhide">
+      <h1 class="intro_head text-danger text-center">Elansezhian R</h1>
+      <div class="row text-primary about_sec">
+        <div class="col-lg-2">
+          <img
+            src="https://img.freepik.com/free-vector/abstract-background-yellow_53876-43496.jpg?size=626&ext=jpg&ga=GA1.2.1106867128.1680520444&semt=sph"
+            alt=""
+          />
+        </div>
+        <div class="col-lg-10">
+          <p>
+            Nature is the connection between the physical world surrounding us
+            and the life inside us. Nature is God’s most precious and valuable
+            gift to humans. It is the principal source of all essential
+            nutrients for all living things on the planet. ‘Nature’ is one of
+            the topics on which we might be asked to write a paragraph. Check
+            the samples provided in the article to learn how to write one on
+            your own.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-primary">
+      <h3>My Contact Details</h3>
+      <div class="row">
+        <div class="col col-6"><p>Name</p></div>
+        <div class="co2 col-6"><p>Elansezhian R</p></div>
+      </div>
+      <div class="row">
+        <div class="col col-6"><p>Phone</p></div>
+        <div class="co2 col-6"><p>99622 00000</p></div>
+      </div>
+      <div class="row">
+        <div class="col col-6"><p>emails</p></div>
+        <div class="co2 col-6"><p>r_sezhian@yahoo.co.in</p></div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function myHide() {
+        var mydiv = document.getElementById("001");
+        mydiv.className = "container";
+      }
+    </script>
+  </body>
+</html>

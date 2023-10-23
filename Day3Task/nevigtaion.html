@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Task</title>
+    <link rel="stylesheet" href="AdvancedTask.css">
+    <link rel="stylesheet" href="AdvancedTaskMobile.css">
+</head>
+<body>
+    <div id="navbar">
+        <img id="logo" src="Logo.jpg" alt="logo"/>
+        <img id="menu" onclick="toggle()" src="menu.png" alt="menu"/>
+        <div class="navbar-items hidden">
+            <a href="#about">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <section id="about">
+        <img src="person.png" alt="person"/>
+        <p>
+            The question how knowledge should be defined is perhaps the most 
+            important and difficult of the three with which we shall deal. This may seem surprising:
+            at first sight it might be thought that knowledge might be defined as belief 
+            which is in agreement with the facts
+        </p>
+    </section>
+    <script>
+        let toggle=()=>{
+            let navbaritem=document.querySelector(".navbar-items");
+            navbaritem.classList.toggle("hidden")
+        };
+    </script>
+</body>
+</html>

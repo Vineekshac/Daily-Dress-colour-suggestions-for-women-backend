@@ -1,0 +1,24 @@
+nav a img {
+  border-radius: 50%;
+  width: 5%;
+}
+
+img {
+  width: 50%;
+  border-radius: 100%;
+  background-color: blue;
+}
+
+.intro_head {
+  margin: 10px 0 10px 0;
+}
+
+.containerhide {
+  display: none;
+}
+
+.container-fluid {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+}

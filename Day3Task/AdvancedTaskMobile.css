@@ -1,0 +1,40 @@
+@media screen and (max-width:430px){
+    #navbar{
+        flex-direction: column;
+        position: fixed;
+        height: auto;
+    }
+    #logp{
+        margin: 0px;
+        height: 40px;
+        padding: 4px;
+    }
+    #menu{
+        display: block;
+        top:8px;
+        cursor: pointer;
+    }
+    .hidden{
+        display: none !important;
+    }
+    .navbar-items{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    .navbar-items a{
+        padding: 5px;
+        width: 100vw;
+        text-align: center;
+        border-top: 1px solid black;
+        background-color: rgb(110, 255, 199);
+    }
+    #about{
+        flex-direction: column;
+        margin-top: 25vh;
+    }
+    #about p{
+        margin: 10px;
+        text-align: center;
+    }
+}
