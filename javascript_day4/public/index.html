@@ -1,0 +1,51 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Flags</title>
+</head>
+<body>
+    <div id="flags"></div>
+
+    <script>
+        // Function to create an image element for each flag
+        function createFlagElement(flagUrl, countryName) {
+            const flagElement = document.createElement('img');
+            flagElement.src = flagUrl;
+            flagElement.alt = countryName;
+            return flagElement;
+        }
+
+        // Fetch data from the API
+        fetch('https://restcountries.com/v3.1/all')
+            .then(response => response.json())
+            .then(data => {
+                const flagsContainer = document.getElementById('flags');
+                // Iterate through the countries and display flags
+                data.forEach(country => {
+                    const flagUrl = country.flags.svg;
+                    const countryName = country.name.common;
+                    const flagElement = createFlagElement(flagUrl, countryName);
+                    flagsContainer.appendChild(flagElement);
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Flags</title>
+</head>
+<body>
+    <div id="flags"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
